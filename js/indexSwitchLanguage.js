@@ -134,7 +134,7 @@ $(function () {
 
     if (screen.width > 1910) {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-    } else if ((1640 < screen.width) && (screen.width < 1910)) {
+    } else if ((1596 < screen.width) && (screen.width < 1910)) {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({
         "line-height": "50px",
         "padding-top": "5px"
@@ -202,10 +202,10 @@ $(function () {
 
     if (screen.width > 1910) {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-    }else if((1640 < screen.width) && (screen.width < 1910)){
+    }else if((1596< screen.width) && (screen.width < 1910)){
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "50px","padding-top": "5px"});
     }else {
-      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "25px","padding-top": "5px"});
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "50px","padding-top": "5px"});
     }
   }
 
