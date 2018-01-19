@@ -202,10 +202,9 @@ $(function () {
 
     if (screen.width > 1910) {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"padding-top": "0px"});
-    }
-
-    if ((1640 < screen.width) && (screen.width < 1910)) {
-      // alert(screen.width);
+    }else if((1640 < screen.width) && (screen.width < 1910)){
+      $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "50px","padding-top": "5px"});
+    }else {
       $("#downloads .downloadsContainer .downloadsContainerLeft .dlist li:nth-child(3)").css({"line-height": "25px","padding-top": "5px"});
     }
   }
