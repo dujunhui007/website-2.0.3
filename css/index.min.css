@@ -1575,6 +1575,26 @@ ul.homeLinks li:nth-child(4) i {
     border: 1px solid rgba(189, 189, 189, 1);
 }
 
+#application #toDapps:hover{
+    background: #ffa81c;
+    color: #fff;
+    border: none;
+}
+
+#application #toDapps{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    line-height: 50px;
+    text-align: center;
+    color: #353535;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+
+
 /*feature*/
 #features {
     padding: 70px 0 100px 0;
