@@ -70,7 +70,7 @@ body{
     top: 100px;
     left: 66px;
     width: 1px;
-    height: 327px;
+    /*height: 327px;*/
     border-left: 2px dashed #8d8d8d;
 }
 

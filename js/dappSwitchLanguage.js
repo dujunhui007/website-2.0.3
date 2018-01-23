@@ -137,6 +137,31 @@ function loadProperties(str) {
       $('#applicationCenterTitle4').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle5').html($.i18n.prop('string_applicationCenterTitle1'));
 
+      $('#dappsList').html($.i18n.prop('string_dappsList'));
+      $('#dappsTitle2').html($.i18n.prop('string_dappsTitle2'));
+      $('#dappsTitle3').html($.i18n.prop('string_dappsTitle3'));
+      $('#dappsTitle5').html($.i18n.prop('string_dappsTitle5'));
+
+      $('#dappsContentTest1').html($.i18n.prop('string_dappsContentTest1'));
+      $('#dappsContentTest2').html($.i18n.prop('string_dappsContentTest2'));
+      $('#dappsContentTest3').html($.i18n.prop('string_dappsContentTest3'));
+      $('#dappsContentTest4').html($.i18n.prop('string_dappsContentTest4'));
+      $('#dappsContentTest5').html($.i18n.prop('string_dappsContentTest5'));
+
+      $('#dappsLink1').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink2').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink3').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink4').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink5').html($.i18n.prop('string_dappsLink1'));
+
+      $('#dappsContentTest11').html($.i18n.prop('string_dappsContentTest11'));
+      $('#dappsContentTest21').html($.i18n.prop('string_dappsContentTest21'));
+      $('#dappsContentTest31').html($.i18n.prop('string_dappsContentTest31'));
+      $('#dappsContentTest41').html($.i18n.prop('string_dappsContentTest41'));
+      $('#dappsContentTest51').html($.i18n.prop('string_dappsContentTest51'));
+
+
+
       $('#dappDescribe1').html($.i18n.prop('string_dappDescribe1'));
       $('#dappDescribe2').html($.i18n.prop('string_dappDescribe2'));
       $('#dappDescribe3').html($.i18n.prop('string_dappDescribe3'));

@@ -1289,6 +1289,7 @@ ul.homeLinks li:nth-child(4) i {
 }
 
 .applicationContainer {
+    position: relative;
     width: 70%;
     margin: 0 auto;
     max-width: 1400px;
@@ -1578,19 +1579,24 @@ ul.homeLinks li:nth-child(4) i {
 #application #toDapps:hover{
     background: #ffa81c;
     color: #fff;
-    border: none;
+    box-shadow: 0 0 20px #ffa81c;
 }
 
 #application #toDapps{
+    position: absolute;
     display: block;
-    width: 200px;
-    height: 50px;
-    margin: 50px auto 0 auto;
-    line-height: 50px;
+    width: 100px;
+    height: 40px;
+    top:-55px;
+    right:0;
+    /*margin: 50px auto 0 auto;*/
+    line-height: 40px;
     text-align: center;
-    color: #353535;
-    border: 1px solid #ccc;
-    border-radius: 25px;
+    color: rgba(0,0,0,.5);
+    background: #fff;
+    /*border: 1px solid #ccc;*/
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 20px;
 }
 
 

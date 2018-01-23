@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var switchFlag = 1;
+  // var switchFlag = 1;
   //
   // function getLeftLineHeight() {
   //   var leftLineH = $(".timeLineContainer .timeContent .timeContentRight .timeContentIncident").height() + 100;
@@ -11,9 +11,22 @@ $(document).ready(function () {
   //
   // getLeftLineHeight();
 
+  function getLeftLineHeight() {
+
+    $(".timeLineContainer .timeContent .timeContentLeft .leftLine").each(function () {
+
+      // alert($(this).height());
+      // alert($(this).parent().parent().find(".timeContentIncident").height());
+      $(this).css("height",$(this).parent().parent().find(".timeContentIncident").height())
+    })
+  }
+
+  getLeftLineHeight();
+
+
   $(".timeLineContainer .timeContent ul li.incidentContainer .timeContentLeft .hideIncident").click(function () {
-      $(this).parent().parent().find(".timeContentIncident").slideToggle();
-      $(this).parent().find(".leftLine").slideToggle();
+    $(this).parent().parent().find(".timeContentIncident").slideToggle();
+    $(this).parent().find(".leftLine").slideToggle();
     // if (switchFlag) {
     //   $(this).parent().parent().find(".timeContentIncident").slideToggle();
     //   $(this).parent().find(".leftLine").css("height", "100px");

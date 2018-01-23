@@ -259,6 +259,7 @@ function loadProperties(str) {
       $('#introductionContentTwo').html($.i18n.prop('string_introductionContentTwo'));
 
       $('#dappsTitle').html($.i18n.prop('string_dappsTitle'));
+      $('#toDapps').html($.i18n.prop('string_toDapps'));
       $('#dappsTopContent').html($.i18n.prop('string_dappsTopContent'));
       $('#applicationDetailContent1').html($.i18n.prop('string_applicationDetailContent1'));
       $('#applicationDetailMore1').html($.i18n.prop('string_applicationDetailMore1'));
