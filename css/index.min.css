@@ -1589,6 +1589,7 @@ ul.homeLinks li:nth-child(4) i {
     height: 40px;
     top:-50px;
     right:0;
+    font-family: aschFont;
     /*margin: 50px auto 0 auto;*/
     line-height: 40px;
     text-align: center;
