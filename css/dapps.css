@@ -1,3 +1,8 @@
+@font-face {
+    font-family: aschFont;
+    src: url("../font/Maquette-Light.otf");
+}
+
 .dappsContainerTop{
     width: 100%;
     height: 400px;
@@ -7,8 +12,6 @@
     background: url(../images/allpicationTopBackground.jpg) no-repeat center;
     background-size: cover;
 }
-
-
 
 .dappsContainer{
     width: 70%;
@@ -31,6 +34,7 @@
     color: #363636;
     font-size: 28px;
     font-weight: bold;
+    font-family: aschFont;
 }
 
 
@@ -58,6 +62,8 @@
 
 .dappsContainer ul li .dappContainer .dappContainerLeft img{
     width:100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
 }
 
 
@@ -78,6 +84,7 @@
     text-align: left;
     font-weight: bold;
     font-size: 22px;
+    font-family: aschFont;
 }
 
 .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer{
@@ -96,6 +103,7 @@
     color: #7d7d7d;
     font-size: 16px;
     margin-top: 25px;
+    font-family: aschFont;
 }
 
 .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft a:hover{
@@ -115,6 +123,7 @@
     background: #f49e14;
     border-radius: 18px;
     color: #fff;
+    font-family: aschFont;
 }
 
 .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLine{
@@ -130,7 +139,7 @@
 .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature{
     width: 38%;
     display: inline-block;
-    padding: 30px 0 0 50px;
+    padding: 25px 0 0 50px;
     box-sizing: border-box;
     vertical-align: top;
 }
@@ -147,12 +156,17 @@
     width: 100%;
 }
 
-.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature p{
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature .dappsContentTestContainer{
     display: inline-block;
-    width: 84%;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature .dappsContentTestContainer p{
+    display: block;
+    /*width: 84%;*/
     font-size: 14px;
     color: #7d7d7d;
     line-height: 22px;
+    font-family: aschFont;
 }
 
 @media screen and (max-width: 1910px){
@@ -202,7 +216,7 @@
     }
 
     .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature p{
-        width: 80%;
+        /*width: 80%;*/
     }
 
     .dappsContainer ul li:nth-child(5) .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
