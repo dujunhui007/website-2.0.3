@@ -62,7 +62,6 @@ $(function () {
       loadProperties("strings_en");
       window.flag = 1;
     }
-
   }
 
 
@@ -84,6 +83,10 @@ $(function () {
     $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/china.png");
     $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("English");
     $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("中文简体");
+    if(screen.width < 1910){
+      $("#dreamWorldLinks").css("bottom","15px");
+    }
+
   }
 
   function changeZh() {
@@ -91,6 +94,9 @@ $(function () {
     $(".switchLanguageBtn .btnContainer .btn2 .btnFlag2 img").attr("src", "images/uk.png");
     $(".switchLanguageBtn .btnContainer .btn1  .btnText1").html("中文简体");
     $(".switchLanguageBtn .btnContainer .btn2  .btnText2").html("English");
+    if(screen.width < 1910){
+      $("#dreamWorldLinks").css("bottom","15px");
+    }
   }
 
 
