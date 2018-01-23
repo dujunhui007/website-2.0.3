@@ -544,7 +544,8 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-family: aschFont;
     line-height: 22px;
     font-weight: bold;
-    white-space: nowrap
+    white-space: nowrap;
+    text-align: center;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li p:nth-child(2) {
@@ -552,6 +553,15 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     font-size: 14px;
     line-height: 22px;
     font-family: aschFont;
+
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li:nth-child(1) p{
+    text-align: left;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li:nth-child(3) p{
+    text-align: right;
 }
 
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li span {
@@ -560,7 +570,7 @@ nav .navContainer .navRight .downloadWhitePaperTwo {
     width: 1px;
     height: 80%;
     background: #ccc;
-    right: 15px;
+    right: 0px;
     top: 10%;
 }
 
